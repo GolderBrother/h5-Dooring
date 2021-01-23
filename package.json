@@ -27,6 +27,7 @@
     "test-demo": "http-server dist",
     "postinstall": "umi generate tmp",
     "prettier": "prettier --write '**/*.{js,jsx,tsx,ts,less,md,json}'",
+    "commit": "git-cz",
     "test": "umi-test",
     "test:coverage": "umi-test --coverage",
     "nocompress": "cross-env RM_TMPDIR=none COMPRESS=none umi build"
